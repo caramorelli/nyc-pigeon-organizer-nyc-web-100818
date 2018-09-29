@@ -3,7 +3,6 @@ def nyc_pigeon_organizer(data)
   name_arr = data[:gender][:male] += data[:gender][:female] #["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky", "Queenie", "Ms. K"]
   name_arr.each do |name|
     pigeon_by_name[name] = { :color = [], :gender = [], :lives = []}
-    
   end 
   
   
