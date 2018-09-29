@@ -2,6 +2,8 @@ def nyc_pigeon_organizer(data)
   # pigeon_by_name = {}
   
   name_arr = data[:gender][:male] += data[:gender][:female]
+  print name_arr
+  puts ''
   
   
   data.each do |key, val|
