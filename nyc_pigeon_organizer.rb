@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   end 
   data.each do |key, val|
     val.each do |k, v|
-      pigeon_by_name[v] << k
+      pigeon_by_name[v][key] << k
     end 
   end 
 
