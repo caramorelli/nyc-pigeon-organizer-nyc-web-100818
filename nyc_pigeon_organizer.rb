@@ -4,10 +4,7 @@ def nyc_pigeon_organizer(data)
   name_arr.each do |name|
     pigeon_by_name[name] = { :color = [], :gender = [], :lives = []}
   end 
-  
-  
-  
-  
+
   puts pigeon_by_name
 end
 
