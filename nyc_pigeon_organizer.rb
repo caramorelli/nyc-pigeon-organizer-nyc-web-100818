@@ -5,6 +5,9 @@ def nyc_pigeon_organizer(data)
     pigeon_by_name[name] = { :color => [], :gender => [], :lives => []}
   end 
   data.each do |key, val|
+    val.each do |k, v|
+    end 
+  end 
 
   puts pigeon_by_name
 end
