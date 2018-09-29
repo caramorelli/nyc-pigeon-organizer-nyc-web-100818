@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     # puts data.keys
   
   end 
-# puts pigeon_by_name
+  puts pigeon_by_name
 end
 
 def keys()
