@@ -12,10 +12,8 @@ def nyc_pigeon_organizer(data)
         else 
           pigeon_by_name[names][key] << k.to_s 
         end 
-        
-        pigeon_by_name[names][key] << k.to_s 
       end 
     end 
   end 
-  puts pigeon_by_name
+  pigeon_by_name
 end
