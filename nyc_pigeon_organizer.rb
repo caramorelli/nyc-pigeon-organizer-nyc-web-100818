@@ -6,8 +6,9 @@ def nyc_pigeon_organizer(data)
   end 
   data.each do |key, val|
     val.each do |k, v|
-      print v
-      puts ''
+      v.each do |names|
+        pigeon_by_name[names]
+
       # pigeon_by_name[v] << k
     end 
   end 
