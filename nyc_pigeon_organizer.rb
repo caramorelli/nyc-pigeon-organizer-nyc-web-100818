@@ -1,12 +1,17 @@
 def nyc_pigeon_organizer(data)
   # pigeon_by_name = {}
+  
+  puts data[:gender]
+  
+  
+  
   data.each do |key, val|
     puts val.keys
   end 
 # puts pigeon_by_name
 end
 
-def keys
+def keys()
 end 
 
 pigeon_data = {
