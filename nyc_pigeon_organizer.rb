@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     val.each do |k, v|
       v.each do |names|
         if k.to_s == 'female'
-        pigeon_by_name[names][key] << k.to_s 
+          pigeon_by_name[names][key] << k.to_s 
       end 
     end 
   end 
