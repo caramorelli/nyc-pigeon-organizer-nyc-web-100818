@@ -11,5 +11,5 @@ def nyc_pigeon_organizer(data)
       end 
     end 
   end 
-  pigeon_by_name
+  puts pigeon_by_name
 end
