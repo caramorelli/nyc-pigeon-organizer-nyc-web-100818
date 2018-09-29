@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
 
       # pigeon_by_name[v] << k
     end 
+    end 
   end 
 
   puts pigeon_by_name
