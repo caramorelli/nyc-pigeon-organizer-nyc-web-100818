@@ -9,6 +9,11 @@ def nyc_pigeon_organizer(data)
       v.each do |names|
         if k.to_s == 'female'
           pigeon_by_name[names][key] << k.to_s 
+        else 
+          pigeon_by_name[names][key] << k.to_s 
+        end 
+        
+        pigeon_by_name[names][key] << k.to_s 
       end 
     end 
   end 
