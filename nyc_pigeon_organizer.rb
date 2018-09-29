@@ -1,8 +1,7 @@
 def nyc_pigeon_organizer(data)
   # pigeon_by_name = {}
   
-  puts data[:gender].each do |key, val|
-  
+  puts data[:gender][:male].merge(data[:gender][:female])
   
   
   data.each do |key, val|
