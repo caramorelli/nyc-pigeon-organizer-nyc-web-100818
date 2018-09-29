@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   pigeon_by_name = {}
   name_arr = data[:gender][:male] += data[:gender][:female] #["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky", "Queenie", "Ms. K"]
   name_arr.each do |name|
-    pigeon_by_name[name] = data.keys.map { |ele| ele = {}}
+    pigeon_by_name[name] = {} 
     # puts data.keys
   
   end 
